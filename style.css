@@ -17,10 +17,10 @@ body {
   max-width: 1200px;
   min-width: 1000px;
   margin: 0 auto;
-  color: #353535;
+  color: #000000;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
-  background-color: #f0f0ea;
+  background: #FFFFFF;
 }
 
 fieldset {
@@ -28,3 +28,123 @@ fieldset {
   padding: 0;
   border: 0;
 }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+.link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-decoration-line: underline;
+  color: #4770A0;
+}
+
+/* header
+   ========================================================================== */
+
+
+.main-nav__link {
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.13em;
+}
+
+.main-nav__link--overline {
+  text-decoration: line-through;
+}
+
+.main-nav__tel-link {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+/* main
+   ========================================================================== */
+
+.breadcrumbs__link {
+  font-size: 14px;
+  line-height: 19px;
+  color: #BDBEC2;
+}
+
+.article__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+}
+
+.meta-text {
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.head-quote__text {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.head-quote__cite {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.article__lead-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.article__lead-text--caps {
+}
+
+.article__lead-text--link {
+}
+
+.article__subtitle {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 150%;
+  color: #4770A0;
+}
+
+.article__intro {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.article__block-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 150%;
+  color: #4770A0;
+}
+
+.article__block-text {}
+
+.article__block-tip {}
+
