@@ -76,7 +76,18 @@ a {
 }
 
 .main-nav__tel-link {
+  display: flex;
+  flex-direction: row;
   line-height: 32px;
+}
+
+.main-nav__tel-link::before {
+  display: inline-flex;
+  content: "";
+  width: 11px;
+  height: 15px;
+  align-self: center;
+  background: url("./img/tel.svg") no-repeat;
 }
 
 /* main
@@ -112,6 +123,24 @@ a {
   font-weight: 700;
   font-size: 20px;
   text-align: center;
+}
+
+.article__meta-views::before {
+  display: inline-flex;
+  content: "";
+  width: 25px;
+  height: 17px;
+  align-self: center;
+  background: url("./img/eye.svg") no-repeat;
+}
+
+.article__meta-comment::before {
+  display: inline-flex;
+  content: "";
+  width: 19px;
+  height: 17px;
+  align-self: center;
+  background: url("./img/message.svg") no-repeat;
 }
 
 .article__lead-text {
