@@ -19,8 +19,10 @@ body {
   margin: 0 auto;
   color: #000000;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   background: #FFFFFF;
+  line-height: 150%;
 }
 
 fieldset {
@@ -42,17 +44,20 @@ li {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .uppercase-text {
   text-transform: uppercase;
 }
 
+.underline-text {
+  text-decoration-line: underline;
+}
+
 .link {
   font-weight: 600;
   font-size: 18px;
-  line-height: 150%;
-  text-decoration-line: underline;
   color: #4770A0;
 }
 
@@ -71,7 +76,6 @@ a {
 }
 
 .main-nav__tel-link {
-  font-size: 16px;
   line-height: 32px;
 }
 
@@ -101,21 +105,18 @@ a {
 .head-quote__text {
   font-style: italic;
   font-size: 20px;
-  line-height: 150%;
   text-align: center;
 }
 
 .head-quote__cite {
   font-weight: 700;
   font-size: 20px;
-  line-height: 150%;
   text-align: center;
 }
 
 .article__lead-text {
   font-weight: 600;
   font-size: 18px;
-  line-height: 150%;
 }
 
 .article__lead-text--caps {
@@ -127,24 +128,63 @@ a {
 .article__subtitle {
   font-weight: 600;
   font-size: 25px;
-  line-height: 150%;
   color: #4770A0;
 }
 
 .article__intro {
-  font-weight: 400;
   font-size: 18px;
-  line-height: 150%;
 }
 
-.article__block-title {
+.article__advices-title {
   font-weight: 600;
   font-size: 25px;
-  line-height: 150%;
   color: #4770A0;
 }
 
-.article__block-text {}
+.article__advices-text {
+}
 
-.article__block-tip {}
+.article__advices-accent {}
 
+.article__advices-accent--initial-letter {
+  font-weight: 600;
+  color: #F24A4A;
+}
+
+.sidebar-link {
+  text-align: center;
+  color: #4770A0;
+}
+
+.quote__text {
+}
+
+.quote__cite {
+  font-weight: 600;
+}
+
+.quote__link {
+  color: #4770A0;
+}
+
+.accessory__caption {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.07em;
+}
+
+.accessory-link {
+}
+
+.more-articles__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #48494D;
+}
+
+.footer__nav-link {
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.13em;
+}
