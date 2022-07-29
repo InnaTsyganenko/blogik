@@ -40,48 +40,54 @@
       </nav>
     </header>
     <main class="page__main main">
-      <div class="container">
-        <div class="breadcrumbs">
-          <ul class="page__main__breadcrumbs">
-            <li class="breadcrumbs__item">
-              <a class="breadcrumbs__link" to="#">Главная</a>
-            </li>
-            <li class="breadcrumbs__item">
-              <a class="breadcrumbs__link" to="#">Блог</a>
-            </li>
-            <li class="breadcrumbs__item breadcrumbs__item--current">
-              <a class="breadcrumbs__link" to="#">Отдых: как не превратиться в «загнанную лошадь»</a>
-            </li>
-          </ul>
-        </div>
-        <article class="article">
-          <header class="article__header">
+      <div class="breadcrumbs container">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" to="#">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" to="#">Блог</a>
+          </li>
+          <li class="breadcrumbs__item breadcrumbs__item--current">
+            <a class="breadcrumbs__link" to="#">Отдых: как не превратиться в «загнанную лошадь»</a>
+          </li>
+        </ul>
+      </div>
+
+      <article class="article">
+        <header class="article__header">
+          <div class="article__header-container">
             <h1 class="article__title uppercase-text">Отдых: как не превратиться в «загнанную лошадь»</h1>
-            <div class="article__meta-row">
-              <div class="article__meta-col">
+            <div class="article__meta-row meta-author-data">
+              <div class="article__meta-author-data-col">
                 <time class="article__meta-time meta-text" datetime="2013-10-04">4 октября 2013</time>
               </div>
-              <div class="article__meta-col">
+              <div class="article__meta-author-data-col">
                 <cite class="article__meta-author meta-text">Евгений Телюскин</cite>
               </div>
             </div>
-            <div class="article__meta-row">
-              <div class="article__meta-col">
+            <div class="article__meta-row meta-views-comments">
+              <div class="article__meta-views-comments-col">
                 <span class="article__meta-views meta-text">107</span>
               </div>
-              <div class="article__meta-col">
+              <div class="article__meta-views-comments-col">
                 <span class="article__meta-comment meta-text">12</span>
               </div>
             </div>
             <img class="article__head-img" src="img/article-img-1.jpg" width="780" height="419" alt="Отдых для продуктивной работы">
-            <blockquote class="article__head-quote head-quote">
-              <p class="head-quote__text">Чтобы хорошо отдохнуть, над этим надо хорошо потрудиться</p>
-              <cite class="head-quote__cite">Кащеев Е.</cite>
-            </blockquote>
-            <div class="article__lead">
-              <p class="article__lead-text">При слове «тайм-менеджмент» у многих возникает ассоциация с унылыми серыми буднями, полными работы, стрессов и проблем. Как можно работать, записывая все в блокнот, считая каждую минуту и следуя графику. А как же свободное время? Личное пространство? Отдых, в конце концов? Это распространенное заблуждение! На самом деле теория <a class="article__lead-text--caps uppercase-text link underline-text">ТАЙМ-МЕНЕДЖМЕНТA</a> уделяет огромное внимание правильной и эффективной организации отдыха. Потому что никто не вечен, батарейки садятся у всех, да и ресурсы нервной системы не безграничны. Про опасности <a class="article__lead-text--link link underline-text">синдрома «Кароси»</a> ты уже читал в предыдущих выпусках. Следовательно, для того чтобы качественно и эффективно работать, нужно уметь хорошо отдыхать.</p>
-            </div>
-          </header>
+          </div>
+
+          <blockquote class="article__head-quote head-quote container">
+            <p class="head-quote__text">Чтобы хорошо отдохнуть, над этим надо хорошо потрудиться</p>
+            <cite class="head-quote__cite">Кащеев Е.</cite>
+          </blockquote>
+
+          <div class="article__lead container">
+            <p class="article__lead-text">При слове «тайм-менеджмент» у многих возникает ассоциация с унылыми серыми буднями, полными работы, стрессов и проблем. Как можно работать, записывая все в блокнот, считая каждую минуту и следуя графику. А как же свободное время? Личное пространство? Отдых, в конце концов? Это распространенное заблуждение! На самом деле теория <a class="article__lead-text--caps uppercase-text link underline-text">ТАЙМ-МЕНЕДЖМЕНТA</a> уделяет огромное внимание правильной и эффективной организации отдыха. Потому что никто не вечен, батарейки садятся у всех, да и ресурсы нервной системы не безграничны. Про опасности <a class="article__lead-text--link link underline-text">синдрома «Кароси»</a> ты уже читал в предыдущих выпусках. Следовательно, для того чтобы качественно и эффективно работать, нужно уметь хорошо отдыхать.</p>
+          </div>
+        </header>
+
+        <div class="container">
           <h2 class="article__subtitle">Так каким же должен быть эффективный отдых?</h2>
           <img class="article__head-img" src="img/article-img-2.jpg" width="500" height="400" alt="Смеющийся человек в офисе с наклейкой на лбу">
           <p class="article__intro">Наука тайм-менеджмента это не столько про количество времени, сколько про его качество. Можно тратить меньше рабочих часов, а выполнять гораздо больший объем работ. Точно так же качество отдыха зависит не от того, сколько часов ты на него потратил, а от того, каким был этот отдых. Я предложу ряд советов, которые, надеюсь, помогут вам сделать свой отдых действительно эффективным.</p>
@@ -143,60 +149,63 @@
               <p class="article__advices-text">Латиноамериканцы вообще не считают нужным работать в это время и устраивают <b>3-х часовую сиесту</b> – обязательный сон в послеобеденную жару. Мы себе такой роскоши позволить не можем, однако небольшой <b>15-минутный</b> послеобеденный сон окупится гораздо более высокой послеобеденной работоспособностью. Вспомните, как главный герой <b>«17 мгновений весны»</b> восстанавливается в автомобиле в конце сериала. Долгий сон выбивает из рабочей колеи, а за <b>15 минут</b> мозг хорошо освежается, но не успевает заснуть слишком уж сильно. Практика послеобеденного сна давно стала нормой в западных компаниях, и вслед за Google, Apple и AliExpress российские Сбербанк, Яндекс, Авито и РусГидро уже открыли в своих офисах специальные комнаты сна для сотрудников. Попробуй вздремнуть <b>15 минут</b> в автомобиле или прямо за рабочим столом – следующие <b>4 часа</b> рабочего дня будут очень продуктивными.</p>
               </li>
           </ul>
+        </div>
 
-          <aside class="accessory">
-            <h4 class="accessory__caption uppercase-text">Психолог со стажем!</h4>
-            <img src="./img/psychologist.png" width="125" height="125" alt="Улыбающийся мужчина в очках" class="accessory__img">
-            <ul class="accessory__list">
-              <li class="accessory__item">Самооценка</li>
-              <li class="accessory__item">Семья</li>
-              <li class="accessory__item">Конфликты</li>
-              <li class="accessory__item">Трудоголизм</li>
-            </ul>
-            <a href="" class="accessory-link underline-text">Узнать подробнее</a>
-          </aside>
+        <aside class="accessory container">
+          <h4 class="accessory__caption uppercase-text">Психолог со стажем!</h4>
+          <img src="./img/psychologist.png" width="125" height="125" alt="Улыбающийся мужчина в очках" class="accessory__img">
+          <ul class="accessory__list">
+            <li class="accessory__item">Самооценка</li>
+            <li class="accessory__item">Семья</li>
+            <li class="accessory__item">Конфликты</li>
+            <li class="accessory__item">Трудоголизм</li>
+          </ul>
+          <a href="" class="accessory-link underline-text">Узнать подробнее</a>
+        </aside>
 
-          <footer class="article__footer">
+        <footer class="article__footer">
+          <div class="container">
             <img src="./img/article-img-6.jpg" width="500" height="400" alt="Улыбающаяся красотка" class="article__footer-img">
             <p class="article__footer-text">Береги себя, следуй нашим простым правилам, и ты почувствуешь, как твоя работоспособность увеличивается день за днем!</p>
-            <div class="article__footer-more-articles more-articles">
-              <h3 class="more-articles__title">Другие темы</h3>
-              <ul class="more-articles__list">
-                <li class="more-articles__item">
-                  <a class="more-articles__link" href="##">Отдых за границей</a>
-                </li>
-                <li class="more-articles__item">
-                  <a class="more-articles__link" href="##">Отдых в рабочее время</a>
-                </li>
-                <li class="more-articles__item">
-                  <a class="more-articles__link" href="##">Как пройти собеседование?</a>
-                </li>
-              </ul>
-            </div>
-          </footer>
-        </article>
+          </div>
 
-        <aside class="sidebar">
-          <ul class="sidebar-list">
-            <li class="sidebar-item">
-              <a class="sidebar-link underline-text" href="#">Как научиться отдыхать?</a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link underline-text" href="#">Засыпай быстро</a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link underline-text" href="#">Зарядка для глаз</a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link underline-text" href="#">Застой лимфы? Действенные приёмы и способы.</a>
-            </li>
-          </ul>
-        </aside>
-      </div>
+          <div class="article__footer-more-articles more-articles">
+            <h3 class="more-articles__title">Другие темы</h3>
+            <ul class="more-articles__list container">
+              <li class="more-articles__item">
+                <a class="more-articles__link" href="##">Отдых за границей</a>
+              </li>
+              <li class="more-articles__item">
+                <a class="more-articles__link" href="##">Отдых в рабочее время</a>
+              </li>
+              <li class="more-articles__item">
+                <a class="more-articles__link" href="##">Как пройти собеседование?</a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </article>
+
+      <aside class="sidebar">
+        <ul class="sidebar-list">
+          <li class="sidebar-item">
+            <a class="sidebar-link underline-text" href="#">Как научиться отдыхать?</a>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link underline-text" href="#">Засыпай быстро</a>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link underline-text" href="#">Зарядка для глаз</a>
+          </li>
+          <li class="sidebar-item">
+            <a class="sidebar-link underline-text" href="#">Застой лимфы? Действенные приёмы и способы.</a>
+          </li>
+        </ul>
+      </aside>
     </main>
 
     <footer class="page__footer footer">
-      <div class="footer__container">
+      <div class="footer__container container">
         <ul class="footer__nav-list">
           <li class="footer__nav-item">
             <a class="footer__nav-link uppercase-text" href="##">О компании</a>
